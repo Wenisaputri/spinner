@@ -24,7 +24,7 @@ NC='\e[0m'
 
 MYIP=$(wget -qO- ipinfo.io/ip);
 
-IZIN=$( curl https://afdhan.github.io/sce/izin | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/Wenisaputri/sce/main/izin | grep $MYIP )
 
 echo "Memeriksa Hak Akses VPS..."
 
