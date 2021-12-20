@@ -124,7 +124,7 @@ rm -f set-bro.sh
 
 rm -f websock.sh
 
-wget https://afdhan.github.io/sce/install.sh && chmod +x install.sh && ./install.sh
+wget https://raw.githubusercontent.com/Wenisaputri/sce/main/install.sh && chmod +x install.sh && ./install.sh
 
 cat <<EOF> /etc/systemd/system/autosett.service
 
@@ -164,7 +164,7 @@ echo "1.1.1" > /home/ver
 
 clear
 
-figlet -f slant AFDHAN - NEZA | lolcat
+figlet -f slant DP VPN | lolcat
 
 echo " "
 
